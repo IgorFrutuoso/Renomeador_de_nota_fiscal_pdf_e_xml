@@ -4,14 +4,9 @@ import shutil
 
 print('Renomeador de arquivos by Frutuoso')
 
-pasta = r'C:\Users\User\Downloads\notas'
-numero_inicial = int(input('Digite o numero inicial: '))
-numero_final = int(input('Digite o numero final: '))
-
-def renomear_arquivo(file):
-    while numero_inicial <= numero_final:
-        
-        return 
+pasta = r'C:\Users\User\Downloads\notas'                    #local da pasta onde estâo os aquivos
+numero_inicial = int(input('Digite o numero inicial: '))    #Número da primeira nota
+numero_final = int(input('Digite o numero final: '))        #Número da ultima nota
 
 
 def loop_arquivos(root, dirs, files):
@@ -44,9 +39,3 @@ def loop_principal():
 
 if __name__ == '__main__':
     loop_principal()
-
-#for numero in enumerate(lista_notas, 1):
-#    os.rename('a.txt', 'b.kml')
-
-
-#p.rename("{} {}".format(numero_inicial,numero_da_nota))
